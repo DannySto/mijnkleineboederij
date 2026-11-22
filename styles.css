@@ -49,7 +49,7 @@ h1 { font-size: clamp(3.35rem, 7vw, 6.4rem); letter-spacing: -.075em; }
 .game:first-child h3 { font-size: clamp(1.5rem, 3vw, 2rem); }
 
 .preview { display: grid; grid-template-columns: .65fr 1.35fr; align-items: center; gap: clamp(1rem, 5vw, 4rem); padding-block: clamp(2.5rem, 6vw, 5rem); }
-.preview img { width: 100%; height: auto; border-radius: 1rem; }
+.preview video { display: block; width: 100%; height: auto; border-radius: 1rem; background: var(--ink); }
 .preview p { margin-block: 1rem; color: var(--muted); }
 .parents { padding-block: clamp(2.5rem, 5vw, 4rem); background: #254528; color: #fffdf4; }
 .parents .wrap { display: grid; grid-template-columns: .8fr 1.2fr; gap: 1.5rem; }
